@@ -1,0 +1,22 @@
+{
+  "name": "automation",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "tsx watch src/main.ts",
+    "start": "tsx src/main.ts",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.0",
+    "tsx": "^4.19.2",
+    "typescript": "~5.8.3"
+  },
+  "dependencies": {
+    "dotenv": "^16.5.0",
+    "otpauth": "^9.4.0",
+    "playwright": "^1.53.0"
+  }
+}
